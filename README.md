@@ -22,7 +22,7 @@ Manually interacting with web music players can interrupt workflow or leisure ac
 
 * Explore real-world integration of browser automation and voice interfaces.
 
-* Main reason 🤫 - Brave runs spotify add free, spotify contains every songs, and in windows we cannot interact with spotify, so i fealt the need of this project 
+* Main reason 🤫 - Brave runs Spotify add free, Spotify contains every songs, and in windows we cannot interact with Spotify, so i felt the need of this project 
 
 ## 🛠️ How It Works
 * Wake Word Detection — The system listens continuously for a wake word. (able to hear - "ok google", "hey google", "alexa", "hey siri")
