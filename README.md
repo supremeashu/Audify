@@ -8,6 +8,8 @@ Python
 
 Selenium (Browser Automation with Brave)
 
+porcupine (Wake word detection)
+
 SpeechRecognition (Voice input handling)
 
 Pyttsx3 (Text-to-speech for feedback)
