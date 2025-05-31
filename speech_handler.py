@@ -20,10 +20,14 @@ def get_command(timeout=5, phrase_time_limit=5):
             return command.lower()
         except sr.WaitTimeoutError:
             print("Listening timed out. No speech detected.")
+            speak("Listening timed out. No speech detected.")
         except sr.UnknownValueError:
             print("Could not understand audio.")
+            speak("Could not understand audio.")
         except sr.RequestError:
             print("Speech Recognition service unavailable.")
+            speak("Speech Recognition service unavailable.")
+
     return None
 
 # refence followed for the code:
