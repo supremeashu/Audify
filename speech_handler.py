@@ -1,4 +1,11 @@
 import speech_recognition as sr
+import pyttsx3
+
+engine = pyttsx3.init()
+def speak(text):
+    engine.say(text)
+    engine.runAndWait()
+
 
 def get_command(timeout=5, phrase_time_limit=5):
     recognizer = sr.Recognizer()
